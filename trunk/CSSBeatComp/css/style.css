@@ -2,7 +2,6 @@
   margin:0px 0px;
   padding:0px 0px;
 }
-
 body {
   text-align:center;
   background-color:#E3FFDB;
@@ -10,7 +9,6 @@ body {
   text-shadow:0px 0px 1px rgba(0,0,0,0.2);
   color:black;
 }
-
 #page-wrap {
   width:98%;
   margin:30px auto 30px;
@@ -18,11 +16,9 @@ body {
   overflow:hidden;
   clear:both;
 }
-
 h2 {
   font-size:22px;
 }
-
 textarea {
   display:block;
   text-shadow:none;
@@ -36,43 +32,35 @@ textarea {
   border:1px solid #bbb;
   font:normal 12px/15px "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
 }
-
 .button-group {
   text-align:center;
 }
-
 .button-group div {
   text-align:left;
   margin:10px auto 10px;
 }
-
 button {
   padding:7px 18px;
   font:bold 12px Arial,Sans-Serif;
   cursor:pointer;
 }
-
 .col {
   width:48%;
 }
-
 .left {
   float:left;
   margin-left:1%;
 }
-
 .footer {
   display:block;
   margin:10px auto 10px;
   width:98%;
   text-align:right;
 }
-
 .right {
   float:right;
   margin-right:1%;
 }
-
 #config .outer {
   border:1px solid #bbb !important;
 }
