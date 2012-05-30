@@ -27,7 +27,7 @@ body {
 	position: relative;
 	margin: 1em 5% 0;
 	padding-left: 330px; 
-	background: url("/css/images/pre-grid.PNG") repeat scroll 0 0 #F1F1F1;
+	background: url("/css/images/pre-grid.png") repeat scroll 0 0 #F1F1F1;
 	font-family: 'Hiragino Kaku Gothic Pro', 'Segoe UI', 'Apple Gothic', Tahoma, 'Helvetica Neue', sans-serif;
 	line-height: 1.4;
 }
