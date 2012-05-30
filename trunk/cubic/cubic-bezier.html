@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://cubic-bezier.com/#.17,.67,.83,.67 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<meta charset="utf-8">
+<title>cubic-bezier</title>	
+<link href="css/cubic.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABJElEQVQ4T2NkWLXLj+E/Yz0DI4MRA0ng/32g8gJGoAG3GBgYVUnSC1f8/yzIgB9AA9hJMeCmhxWD+o5jYC0kG7Dd1pAh7tQVhtc/f5NmADsTI8OnQCeG3PM3GGbdewp3MIYLWBgZGf78/4/io4feNgz3vn5ncD14DuhkBobfSPIYBsTLSzIsfPgcbECeiixDg7Yyg8jGAwz/gHwPCWGGHS/eohiOMww+Bzoy2O8/w3Duw2e84YtigJUwP8Opd58Yvgc7MbCu2UtUxKAY4C0pwrDRWp+BhUjNGNF40c2CwXDXCbB/iQUoLphhrMGQcfYGsXpR08EpZzMGs72nSNKM4oU3/vbA6DpIlgHkZ6b/DOdAYeAHzBINQKsNSbL+//8HwGSZDwCSEHGGrg4XdQAAAABJRU5ErkJggg==">
+</head> 
+<body data-twttr-rendered="true"> 
+<header>
+	<h1>
+		<a href="./cubic-bezier/cubic-bezier(.17,.67,.83,.67) ? cubic-bezier.com.html"><code>cubic-bezier(<span id="values"><span id="P1x" class="param">.17</span>,<span id="P1y" class="param">.67</span>,<span id="P2x" class="param">.83</span>,<span id="P2y" class="param">.67</span></span>)</code></a>
+		<button id="save">Save</button>
+	</h1>
+	<p style=""><strong>This curve contains values out of range.</strong> But fear not young padawan! Just use <code>another value</code> as well for Webkit the <a href="https://bugs.webkit.org/show_bug.cgi?id=45761" tabindex="-1">bug #45761</a> fix propagates to most used versions.</p>
+</header>
+
+<div class="coordinate-plane" data-time="84" data-progression="150"> 
+	<span class="control-point" id="P0"></span> 
+	<button class="control-point" id="P1" style="left:50px; top: 250px;"></button>
+	<button class="control-point" id="P2" style="left:250px; top: 250px;"></button>
+	<span class="control-point" id="P3"></span>
+
+	<canvas height="600" width="300" id="curve"></canvas>
+</div>
+
+<section id="preview">
+	<h1>
+		Preview &amp; compare
+		<button id="go">Go!</button>
+	</h1>
+	<p>
+		<label for="duration">Duration:</label>
+		<input type="range" id="duration" value="1" min="0.1" max="10" step="0.1" pattern="\d*\.?\d+" size="3">
+		<output for="duration">1 second</output>
+	</p>
+	<canvas id="current" width="60" height="60" style="-webkit-transition: cubic-bezier(0.17, 0.67, 0.83, 0.67); "></canvas>
+	<canvas id="compare" width="60" height="60" style="-webkit-transition: 1s cubic-bezier(0.25, 0.1, 0.25, 1); "></canvas>
+</section>
+
+<section id="library">
+	<h1>
+		Library
+		<button id="import">Import</button>
+		<button id="export">Export</button>
+	</h1>
+	<p>Click on a curve to compare it with the current one.</p>
+	<a href="http://css3-tutsplus.googlecode.com/svn/trunk/cubic/" style="-webkit-transition: cubic-bezier(0.25, 0.1, 0.25, 1); " class="selected"><canvas width="100" height="100"></canvas><span title="ease">ease</span><button title="Remove from library">×</button></a><a href="http://css3-tutsplus.googlecode.com/svn/trunk/cubic/" style="-webkit-transition: cubic-bezier(0, 0, 1, 1); "><canvas width="100" height="100"></canvas><span title="linear">linear</span><button title="Remove from library">×</button></a><a href="http://css3-tutsplus.googlecode.com/svn/trunk/cubic/" style="-webkit-transition: cubic-bezier(0.42, 0, 1, 1); "><canvas width="100" height="100"></canvas><span title="ease-in">ease-in</span><button title="Remove from library">×</button></a><a href="http://css3-tutsplus.googlecode.com/svn/trunk/cubic/" style="-webkit-transition: cubic-bezier(0, 0, 0.58, 1); "><canvas width="100" height="100"></canvas><span title="ease-out">ease-out</span><button title="Remove from library">×</button></a><a href="http://css3-tutsplus.googlecode.com/svn/trunk/cubic/" style="-webkit-transition: cubic-bezier(0.42, 0, 0.58, 1); "><canvas width="100" height="100"></canvas><span title="ease-in-out">ease-in-out</span><button title="Remove from library">×</button></a><footer><strong>Tip:</strong> Right click on any library curve and select “Copy Link Address” to get a permalink to it which you can share with others</footer>
+	
+	<form id="importexport">
+		<label for="json">To import curves, paste the code below and click “Import”</label>
+		<label for="json">Copy the code and save to a file to export</label>
+		<textarea id="json"></textarea>
+		<button>Import</button>
+		<button>Close</button>
+	</form>
+</section>
+<footer>
+	Update By <a href="http://under-88.blogspot.com" rel="dofollow">CSSTuts+</a> with care ? <a href="http://under-88.blogspot.com/p/css-cubic-bezier-editor.html">About</a>
+	<a href="http://leaverou.me" class="button" rel="nofollow">Powered</a>
+</footer>
+<script src="./files/chainvas.min.js"></script> 
+<script src="./files/environment.js"></script> 
+<script src="./files/cubic-bezier.js"></script> 
+<script src="./files/interaction.js"></script> 
+<script src="./files/widgets.js"></script>
+	 
+<script>_gaq = [['_setAccount', 'UA-25106441-3'], ['_trackPageview']];</script>
+<script src="./files/ga.js" async=""></script>
+<embed type="application/x-dap-background" id="DAPPlugin" style="visibility: collapse"></body><style type="text/css">embed[type*="application/x-shockwave-flash"],embed[src*=".swf"],object[type*="application/x-shockwave-flash"],object[codetype*="application/x-shockwave-flash"],object[src*=".swf"],object[codebase*="swflash.cab"],object[classid*="D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid*="d27cdb6e-ae6d-11cf-96b8-444553540000"],object[classid*="D27CDB6E-AE6D-11cf-96B8-444553540000"]{	display: none !important;}</style></html>
