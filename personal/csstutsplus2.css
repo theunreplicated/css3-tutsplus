@@ -1,0 +1,7 @@
+/* style2 */
+#followers {margin: 0 auto;overflow: hidden;padding: 10px;vertical-align: middle !important;}
+.plus-profile, .plus-page, .twit-page {border-bottom: 1px solid #CCCCCC;box-shadow: 0 1px 0 #FFFFFF;-moz-box-shadow: 0 1px 0 #FFFFFF;-webkit-box-shadow: 0 1px 0 #FFFFFF;height: auto;margin: auto;padding: 10px 0;vertical-align: middle;}
+#followers h2 {font: bold italic 100% 'arial',verdana,tahoma,serif;border-bottom: 1px solid #ccc;box-shadow: 0 1px 0 #fff;-moz-box-shadow: 0 1px 0 #fff;-webkit-box-shadow: 0 1px 0 #fff;padding: 0;margin: 0 auto!important;position: relative;}
+.PageList LI A {border-bottom: 1px solid #ccc;display: list-item;font-weight: bold;list-style: circle inside none;margin: 0 !important;padding: 0 !important;text-shadow: 0 1px 0 #FFFFFF;color:#003B5B;box-shadow: 0 1px 0 #FFFFFF;-moz-box-shadow: 0 1px 0 #FFFFFF;-webkit-box-shadow: 0 1px 0 #FFFFFF;}
+@media screen and (max-width:960px) {.PageList LI A {border-bottom: 1px solid transparent !important;box-shadow: none !important;color: #003B5B;display:list-item;float: left;font-weight: bold;margin: 0 !important;padding:0 10px !important;text-shadow: 0 1px 0 #FFFFFF;width: auto;}.sidebar li {margin: 0 !important;padding:0 !important;}
+}
