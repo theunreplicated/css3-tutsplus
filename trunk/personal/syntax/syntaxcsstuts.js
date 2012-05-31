@@ -1633,8 +1633,8 @@ $(document).ready(function() {
 		$('#tooltip').fadeIn('200');
 		$('#tooltip').fadeTo('10',0.9);
 	}).mousemove(function(e) {
-		$('#tooltip').css('top', e.pageY + 0 );
-		$('#tooltip').css('left', e.pageX + 0 );
+		$('#tooltip').css('top', e.pageY + -70 );
+		$('#tooltip').css('left', e.pageX + -70 );
 	}).mouseout(function() {
 		$(this).attr('title',$('.tipBody').html());
 		$(this).children('div#tooltip').remove();
