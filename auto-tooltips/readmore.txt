@@ -1,0 +1,20 @@
+ 
+Tanamkan HTML berikut tepat dibawah tag <body> 
+<script src='http://infotokosurya62.googlecode.com/files/wb.js'/><a href='http://www.warungbebas.com' id='wb_ttauth'>Warung Internet</a><script type='text/javascript'>//<![CDATA[
+wb.tooltip_setting = 
+{
+func : "Tooltip",
+top : 5,
+left : 5,
+maxw : 300,
+speed : 20,
+timer : 40,
+endalpha : 95,
+alpha : 0,
+style_plus : "#tt{border:1px solid #8bd268;-moz-border-radius:8px;-webkit-border-radius:8px;-webkit-box-shadow: 4px 2px 8px #8bd268;-moz-box-shadow: 4px 2px 8px #8bd268;background:#eceff5}#ttcont{background:#677FC2;;-moz-border-radius:8px;-webkit-border-radius:8px;-webkit-box-shadow: 4px 2px 8px #8bd268;-moz-box-shadow: 4px 2px 8px #8bd268;color:#fff}#tthover{-webkit-transform: translate(0,20px); -moz-transform: translate(0,20px); -o-transform: translate(0,20px)"};
+//]]></script><script src='http://infotokosurya62.googlecode.com/files/under_tooltips.js'/>
+<script src='http://javascript-share.googlecode.com/files/under_autotooltips.js'/><!-- pembuka warungbebasautotooltip --><div id='under88'>
+
+
+Tanamkan HTML berikut tepat diatas tag </body>
+</div><!-- penutup warungbebasautotooltip --><script type='text/javascript'>under.$_auto_tooltip(&#39;under88&#39;);</script>
