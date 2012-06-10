@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oxygen'), url('http://themes.googleusercontent.com/static/fonts/oxygen/v1/RzoNiRR1p2Mqyyz2RwqSMw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito-Regular'), url('http://themes.googleusercontent.com/static/fonts/nunito/v4/0rdItLTcOd8TSMl72RUU5w.woff') format('woff');
+}
+@font-face {
+  font-family: 'Cuprum';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cuprum'), local('Cuprum-Regular'), url('http://themes.googleusercontent.com/static/fonts/cuprum/v4/sp1_LTSOMWWV0K5VTuZzvQ.woff') format('woff');
+}
+
 Ttable.type-a td,table.type-b td{border-bottom:1px solid #CCC;margin:0 !important;padding-right:10px !important;text-align:left}td.characters-a{width:70px}td.characters-b{width:270px}table.type-a,table.type-b{width:100%;border-spacing:0;border:0;padding:0}table.type-a tr.highlighted,li.highlighted{background:#F8F8EF;padding:0;border:0}table.type-a tr.hover{background-color:#FF9}table tr.tanheader td{border:0}table.type-a td,table.type-b td{border-bottom:solid 1px #ccc;padding:4px 6px}td.narrow{width:2em}td.x-narrow{width:1em}td.wide{width:100px}td.x-wide{width:150px}td.xx-wide{width:200px}td.xxx-wide{width:250px}table.extra-padding td{padding-top:6px;padding-bottom:6px}table.extra-padding tr.tanheader td{padding:4px 6px}input.trigger{display:inline-block;margin:0px;padding:0px}.spoiler{overflow:hidden;background-color:white;margin:10px 0px 0px;padding:0px 30px;height:0px;visibility:hidden;-webkit-transition:all 1s ease-in-out;-moz-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;transition:all 1s ease-in-out}input.trigger:checked+.spoiler,input.trigger:checked+br+.spoiler{padding:10px 20px;visibility:visible;height:100%;overflow:auto;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #ccc}
 a.demo.single, a.download.single {left: 35%!important;margin: 0!important;}
 a.demo,a.download{font: bold 1.5em cuprum,verdana,arial,serif!important;text-transform:uppercase}
