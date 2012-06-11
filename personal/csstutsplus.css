@@ -16,7 +16,6 @@
   font-weight: normal;
   src: local('Cuprum'), local('Cuprum-Regular'), url('http://themes.googleusercontent.com/static/fonts/cuprum/v4/sp1_LTSOMWWV0K5VTuZzvQ.woff') format('woff');
 }
-*{-webkit-transition:all 0.4s ease-out;-moz-transition:all 0.4s ease-out;-o-transition:all 0.4s ease-out;transition:all 0.4s ease-out;}
 /* Step 1: Build an Animation */
 
 @-webkit-keyframes aniload {
