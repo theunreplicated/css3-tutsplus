@@ -1,0 +1,13 @@
+.ep-left span.ep-mid {
+	position: absolute;
+	top:0px;
+	left:150px;
+}
+.ep-right span.ep-mid {
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+.ep-right span.ep-mid i{
+	display: none;
+}
