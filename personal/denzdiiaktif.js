@@ -1,0 +1,2 @@
+$("#daftar-isi .judul-list").hide();$("#daftar-isi .judul-label:first").addClass('headactive').next().slideDown('slow');$("#daftar-isi .judul-label").css("cursor","pointer");$("#daftar-isi .judul-label").click(function(){if($(this).next().is(':hidden')){$("#daftar-isi .judul-label").removeClass('headactive').next().slideUp('slow');$(this).toggleClass('headactive').next().slideDown('slow');}
+return false;});
