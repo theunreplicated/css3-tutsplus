@@ -1,0 +1,26 @@
+#box_shadow { width: 100px; height: 100px; background-color: #F23005; margin: 35px auto; }
+
+textarea { background-color: #F2EC94;  border: 1px solid #888888; color: #333; padding: 14px 5px 9px; text-align: center; width: 392px; line-height: 20px; height: 75px;
+	-moz-box-shadow:    -1px -1px 1px #777;
+	-webkit-box-shadow: -1px -1px 1px #777;
+	box-shadow:         -1px -1px 1px #777;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+#results { width: 392px; margin: 35px auto; }
+
+
+
+
+
+
+#bsap_1267519 .bsa_it_ad {
+	background: none;
+	margin-top: 35px;
+	border: none;
+	border-top: 1px solid #888888;
+	border-bottom: 1px solid #888888;
+}
