@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	<title>Ribbon Generator | Tuts+</title>
+	<link rel="shortcut icon" href="http://under-88.blogspot.com/favicon.ico">
+	<link rel='stylesheet' type='text/css' href='css/ribbon-app-style.css' />
+	<link rel='stylesheet' type='text/css' href='css/colorpicker.css' />
+	<!--[if lte IE 7]>
+        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+    <![endif]-->
+	<link rel='stylesheet' type='text/css' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css' />
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>    
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js'></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.dropdownPlain.js"></script>
+    <script type='text/javascript' src='js/colorpicker.js'></script>
+    <script type='text/javascript' src='js/ribbonmaker.js'></script>
+	<script type='text/javascript' src='js/ribbon-extra.js'></script>
+</head>
+
+<body>
+    <div id="main-container">
+    
+    	<div class="header-container">
+        <div class="header-text">
+        	<div id="logo"><a href="#" class="logo"><span class="displace">Live Tools</span></a></div>    
+       	</div>
+        	
+            <div class="tool-title" id=""><h1>Ribbon Generator</h1></div> 
+            
+            <div class="menu-container">
+            	<ul class="dropdown">
+        			<li><a href="#">Pilih Alat</a>
+        				<ul class="sub_menu">
+        			 		<li><a href="index-button.html">Button Generator</a></li>
+        			 		<li><a href="index-form.html">Form Generator</a></li>
+                            <li><a href="index-ribbon.html">Ribbon Generator</a></li>
+        				</ul>
+        			</li>
+        	
+        		</ul>
+			</div>
+            <div class="clear"></div>
+ 
+        </div>
+  
+    	<div id="button-box">
+       
+    
+    		<div class="ribbon"><div class="ribbon-stitches-top"></div><strong class="ribbon-content"><h1>Ribbon ini Dengan CSS</h1></strong><div class="ribbon-stitches-bottom"></div></div>
+    			
+    	</div>
+        <div class="clear"></div>
+
+    	
+        
+        
+        <div class="controls-container">
+        
+        <div id="controls-b"><h2>Pengaturan Ribbon</h2>
+            <div class="spacer"></div>
+                
+
+                <div class="control-title">Lebar Ribbon</div>
+            	<div class="sliderBar" id="ribbon-sizer"></div>
+                <div class="slider-markers"></div>
+            	<div class="spacer"></div>
+                <div class="control-title">Ukuran akhir Ribbon</div>
+            	<div class="sliderBar" id="end-sizer"></div>
+                <div class="slider-markers"></div>
+            	<div class="spacer"></div>
+  
+            	<div class="control-title" id="">Stitching & Shadows</div>
+       		<div class="switch-container">
+            	<div class="control-title" id="">Stitching</div>
+            	<div class="switches sliderBar" id="inner-stitching"></div>
+            </div>
+            	<div class="switch-container-last">
+            	<div class="control-title" id="">Shadow</div>
+            	<div class="switches sliderBar" id="outer-shadow"></div>    
+            </div>
+                
+        </div>
+        
+        <div id="controls-b"><h2>Pengaturan Teks</h2>
+        <div class="spacer"></div>
+        
+        	<div class="control-title">Pesan Ribbon</div>
+                <input type="text" class="label-field" id="ribbon-title" name="ribbon-title" value="A Pure CSS Ribbon" maxlength="50"/>
+            <div class="spacer"></div>
+                <div class="control-title">Ukuran Teks</div>
+            	<div class="sliderBar" id="font-sizer"></div>
+                <div class="slider-markers"></div>
+           	<div class="spacer"></div>
+
+
+            <div id="colors">
+            
+            	<div>
+                    <label for="TextColorValue">Warna Teks</label>
+                    <input type="text" maxlength="6" size="6" id="TextColorValue" class="pickable" rel="textColor" value="801111" style="background: #801111;" />
+                </div>
+                
+                <div>
+                    <label for="textShadow">Warna Bayangan Teks</label>
+                    <input type="text" maxlength="6" size="6" id="textShadow" class="pickable" rel="textShadow" value="d65c5c" style="background: #d65c5c;" />
+                </div>
+
+            </div>
+            
+            
+        </div>
+        
+        
+        
+        <div id="controls"><h2>Warna Ribbon</h2>
+        <div class="spacer"></div>
+    	
+            <div id="colors">
+
+                <div>
+                    <label for="topGradientValue">Warna Atas Riboon</label>
+                    <input type="text" maxlength="6" size="6" id="topGradientValue" class="pickable" rel="backgroundTop" value="d64b4b" style="background: #d64b4b;" />
+                </div>
+                
+                <div>
+                    <label for="bottomGradientValue">Warna Bawah Ribbon</label>
+                    <input type="text" maxlength="6" size="6" id="bottomGradientValue" class="pickable" rel="backgroundBottom" value="ab2c2c" style="background: #ab2c2c;" />
+                </div>
+                
+                <div>
+                    <label for="foldColorValue">Warna Lipat Ribbon</label>
+                    <input type="text" maxlength="6" size="6" id="foldColorValue" class="pickable" rel="foldColor" value="871616" style="background: #871616;" />
+                </div>
+            
+            	<div>
+                    <label for="endColorValue">Warna Akhir Ribbon</label>
+                    <input type="text" maxlength="6" size="6" id="endColorValue" class="pickable" rel="endColor" value="c23a3a" style="background: #c23a3a;" />
+                </div>
+                
+ 
+            </div>
+               
+        </div>
+        
+        
+        </div>
+        <div class="clear"></div>
+        
+        <div class="footer-container">
+        
+        	<div class="footer-text">
+        	Jika Selesai? Klik Tombol untuk mendapatkan kode.
+       		</div>
+        
+        	<div class="get-code-button-container">
+        
+        		<div class="get-css-button">
+                
+        		<a href="#" class="get-css-button">Lihat CSS</a>
+                
+        		</div>
+                
+                <div class="get-html-button">
+                
+        		<a href="#" class="get-html-button">Lihat HTML</a>
+                
+        		</div>
+            
+        	</div>
+
+        </div>
+        
+        <div id="the-html"></div>
+        
+        <div id="the-css"></div>
+		<p>Suported by : <a href="http://css-tricks.com/" rel="nofollow" target="_blank">CSS-Tricks</a> | Update : <a href="http://under-88.blogspot.com/">Under-88</a> | original : <a href="http://uiparade.com" rel="nofollow" target="_blank">UI-Parade</a></p>
+	</div>
+
+</body>
+</html>

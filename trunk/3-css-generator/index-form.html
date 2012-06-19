@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	<title>Form Generator | Tuts+</title>
+	<link rel="shortcut icon" href="http://under-88.blogspot.com/favicon.ico">
+	<link rel='stylesheet' type='text/css' href='css/form-app-style.css' />
+	<link rel='stylesheet' type='text/css' href='css/colorpicker.css' />
+	<link rel='stylesheet' type='text/css' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css' />
+	<!--[if lte IE 7]>
+        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+    <![endif]-->
+	<link rel='stylesheet' type='text/css' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css' />
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>    
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js'></script>
+    <script type='text/javascript' src='js/colorpicker.js'></script>
+    <script type='text/javascript' src='js/formmaker.js'></script>
+	<script type='text/javascript' src='js/extra.js'></script>
+</head>
+
+<body>
+    <div id="main-container">
+    
+    	<div class="header-container">
+        <div class="header-text">
+        	<div id="logo"><a href="#" class="logo"><span class="displace">Live Tools</span></a></div>    
+       	</div>
+        	
+            <div class="tool-title" id=""><h1>Form Generator</h1></div> 
+            
+            <div class="menu-container">
+            	<ul class="dropdown">
+        			<li><a href="#">Pilih Alat</a>
+        				<ul class="sub_menu">
+        			 		<li><a href="index-button.html">Button Generator</a></li>
+        			 		<li><a href="index-form.html">Form Generator</a></li>
+                            <li><a href="index-ribbon.html">Ribbon Generator</a></li>
+        				</ul>
+        			</li>
+        	
+        		</ul>
+			</div>
+            <div class="clear"></div>
+ 
+        </div>
+  
+<div id="button-box">
+
+            <form class="form-container" style="position: relative; top: 175px; left: 79px;">
+            <div class="form-title"><h2>Sign up</h2></div>
+            <div class="form-title"><h3>Name</h3></div>
+			<input name="firstname" type="text" class="form-field" value="Denzdii GN" /><br />
+            <div class="form-title"><h4>Email</h4></div>
+			<input class="form-field" type="text" name="email" /><br />
+            <div class="submit-container">
+            <a href="#" class="submit-button">Submit</a>
+            </div>
+			</form>
+  			
+    	</div>
+
+    	<div id="container-controls"><h2>Form Container</h2>
+        	<div class="spacer"></div>
+            <div class="control-title">Form Title</div>
+                <input name="form-title" type="text" class="label-field" id="form-title" value="Sign up" maxlength="30"/>
+                <div class="spacer"></div>
+
+                <div class="control-title">Corner Roundness</div>
+            	<div class="sliderBar" id="form-border-rounder"></div>
+                <div class="slider-markers"></div>
+            	<div class="spacer"></div>
+                <div class="control-title">Border Thickness</div>
+            	<div class="sliderBar" id="form-border-thickness"></div>
+                <div class="slider-markers-b"></div>
+            	<div class="spacer"></div>
+                <div class="control-title" id="">Highlights & Shadows</div>
+       		<div class="switch-container">
+            	<div class="control-title" id="">Highlight</div>
+            	<div class="switches sliderBar" id="form-inner-highlight"></div>
+            </div>
+            	<div class="switch-container-last">
+            	<div class="control-title" id="">Shadow</div>
+            	<div class="switches sliderBar" id="form-shadow"></div>    
+            </div>
+            <div class="clear"></div>
+            <div class="spacer"></div>
+            	
+            	<div class="control-title" id="">Container Colors</div>
+                <div id="colors">
+ 
+                <div>
+                    <label for="formTopGradientValue">Top Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="formTopGradientValue" class="pickable" rel="formTopGradientValue" value="f2e3d2" style="background: #f2e3d2;" />
+                </div>
+                
+                <div>
+                    <label for="formBottomGradientValue">Bottom Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="formBottomGradientValue" class="pickable" rel="formBottomGradientValue" value="c9b7a2" style="background: #c9b7a2;" />
+                </div>
+                
+                <div>
+                    <label for="formBorderColor">Border Color</label>
+                    <input type="text" maxlength="6" size="6" id="formBorderColor" class="pickable" rel="formBorderColor" value="f2e3d2" style="background: #f2e3d2;" />
+                </div>
+                
+                <div>
+                    <label for="formTextColor">Label Text Color</label>
+                    <input type="text" maxlength="6" size="6" id="formTextColor" class="pickable" rel="formTextColor" value="725129" style="background: #725129;" />
+                </div>
+                
+                <div>
+                    <label for="formTextShadow">Label Text Shadow Color</label>
+                    <input type="text" maxlength="6" size="6" id="formTextShadow" class="pickable" rel="formTextShadow" value="fdf2e4" style="background: #fdf2e4;" />
+                </div>
+
+
+            </div>
+
+        </div>
+        
+        <div id="field-controls"><h2>Form Fields</h2>
+        	<div class="spacer"></div>           
+            <div class="control-title">Field Titles</div>
+                <input name="field-title-a" type="text" class="label-field" id="field-title-a" value="Name" maxlength="30"/>
+                <input name="field-title-b" type="text" class="label-field" id="field-title-b" value="Email" maxlength="30"/>
+                <div class="spacer"></div>
+            
+            <div class="control-title">Corner Roundness</div>
+            	<div class="sliderBar" id="field-border-rounder"></div>
+                <div class="slider-markers"></div>
+            	<div class="spacer"></div>
+                <div class="control-title">Border Thickness</div>
+            	<div class="sliderBar" id="field-border-thickness"></div>
+                <div class="slider-markers-b"></div>
+            	<div class="spacer"></div>
+                <div class="control-title" id="">Highlights & Shadows</div>
+            <div class="switch-container">
+            	<div class="control-title" id="">Highlight</div>
+            	<div class="switches sliderBar" id="field-outer-highlight"></div>  
+            </div>
+            <div class="switch-container-last">
+            	<div class="control-title" id="">Shadow</div>
+            	<div class="switches sliderBar" id="field-shadow"></div>    
+            </div> 
+            <div class="clear"></div>
+            <div class="spacer"></div>
+                
+                <div class="control-title" id="">Field Colors</div>
+                
+                <div id="colors">
+                
+                 <div>
+                    <label for="fieldTextColor">Normal Input Text Color</label>
+                    <input type="text" maxlength="6" size="6" id="fieldTextColor" class="pickable" rel="fieldTextColor" value="c9b7a2" style="background: #c9b7a2;" />
+                </div>
+                
+                <div>
+                    <label for="selecetedFieldTextColor">Selected Input Text Color</label>
+                    <input type="text" maxlength="6" size="6" id="selecetedFieldTextColor" class="pickable" rel="selecetedFieldTextColor" value="725129" style="background: #725129;" />
+                </div>
+
+            	<div>
+                    <label for="fieldBackground">Normal State Color</label>
+                    <input type="text" maxlength="6" size="6" id="fieldBackground" class="pickable" rel="fieldBackground" value="e4d5c3" style="background: #e4d5c3;" />
+                </div>
+                
+                <div>
+                    <label for="fieldSelectedBackground">Selected State Color</label>
+                    <input type="text" maxlength="6" size="6" id="fieldSelectedBackground" class="pickable" rel="fieldSelectedBackground" value="ffffff" style="background: #ffffff;" />
+                </div>
+                
+                <div>
+                    <label for="fieldBorderColor">Border Color</label>
+                    <input type="text" maxlength="6" size="6" id="fieldBorderColor" class="pickable" rel="fieldBorderColor" value="c9b7a2" style="background: #c9b7a2;" />
+                </div>
+                
+            </div>
+        
+        </div>
+        <div class="clear"></div>
+        
+        <div id="button-controls"><h2>Button Settings</h2>
+        	<div class="spacer"></div>
+            	<div class="control-title">Corner Roundness</div>
+            	<div class="sliderBar" id="border-rounder"></div>
+                <div class="slider-markers"></div>
+            	<div class="spacer"></div>
+            	<div class="control-title">Border Thickness</div>
+            	<div class="sliderBar" id="border-thickness"></div>
+                <div class="slider-markers-b"></div>
+            	<div class="spacer"></div>
+            	<div class="control-title" id="">Highlights</div>
+       		<div class="switch-container">
+            	<div class="control-title" id="">Inner</div>
+            	<div class="switches sliderBar" id="inner-highlight"></div>
+            </div>
+            	<div class="switch-container-last">
+            	<div class="control-title" id="">Outer</div>
+            	<div class="switches sliderBar" id="outer-highlight"></div>    
+            </div>
+                
+        </div>
+        
+
+        
+        <div class="controls-container">
+
+        <div id="controls"><h2>Button Normal State</h2>
+        <div class="spacer"></div>
+    	
+            <div id="colors">
+            
+            	<div>
+                    <label for="textColor">Text Color</label>
+                    <input type="text" maxlength="6" size="6" id="textColor" class="pickable" rel="textColor" value="031540c" style="background: #31540c;" />
+                </div>
+                
+                <div>
+                    <label for="textShadow">Text Shadow</label>
+                    <input type="text" maxlength="6" size="6" id="textShadow" class="pickable" rel="textShadow" value="addc7e" style="background: #addc7e;" />
+                </div>
+            
+            	<div>
+                    <label for="borderColorValue">Border Color</label>
+                    <input type="text" maxlength="6" size="6" id="borderColorValue" class="pickable" rel="borderColor" value="447314" style="background: #447314;" />
+                </div>
+            
+                <div>
+                    <label for="topGradientValue">Top Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="topGradientValue" class="pickable" rel="backgroundTop" value="8dc059" style="background: #8dc059;" />
+                </div>
+                
+                <div>
+                    <label for="bottomGradientValue">Bottom Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="bottomGradientValue" class="pickable" rel="backgroundBottom" value="6aa436" style="background: #6aa436;" />
+                </div>
+
+            </div>
+               
+        </div>
+        
+  
+        <div id="controls"><h2>Button Hover State</h2>
+        <div class="spacer"></div>
+
+
+            <div id="colors">
+            
+            	<div>
+                    <label for="hoverTextColorValue">Text Color</label>
+                    <input type="text" maxlength="6" size="6" id="hoverTextColorValue" class="pickable" rel="textColorHover" value="ffffff" style="background: #ffffff;" />
+                </div>
+                
+                <div>
+                    <label for="hovertextShadow">Text Shadow</label>
+                    <input type="text" maxlength="6" size="6" id="hovertextShadow" class="pickable" rel="textShadowHover" value="31540c" style="background: #31540c;" />
+                </div>
+            
+            	<div>
+                    <label for="hoverborderColorValue">Border Color</label>
+                    <input type="text" maxlength="6" size="6" id="hoverborderColorValue" class="pickable" rel="borderColorHover" value="447314" style="background: #447314;" />
+                </div>
+            
+                <div>
+                    <label for="hoverTopGradientValue">Top Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="hoverTopGradientValue" class="pickable" rel="backgroundTopHover" value="8dc059" style="background: #8dc059;" />
+                </div>
+                
+                <div>
+                    <label for="hoverbottomGradientValue">Bottom Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="hoverbottomGradientValue" class="pickable" rel="backgroundBottomHover" value="6aa436" style="background: #6aa436;" />
+                </div>
+
+            </div>
+            
+            
+        </div>
+        
+        <div id="controls"><h2>Button Pressed State</h2>
+        <div class="spacer"></div>
+
+
+            <div id="colors">
+            
+            	<div>
+                    <label for="textColorActive">Text Color</label>
+                    <input type="text" maxlength="6" size="6" id="textColorActive" class="pickable" rel="textColorActive" value="ffffff" style="background: #ffffff;" />
+                </div>
+                
+                <div>
+                    <label for="textShadowActive">Text Shadow</label>
+                    <input type="text" maxlength="6" size="6" id="textShadowActive" class="pickable" rel="textShadowActive" value="31540c" style="background: #31540c;" />
+                </div>
+            
+            	<div>
+                    <label for="borderColorActive">Border Color</label>
+                    <input type="text" maxlength="6" size="6" id="borderColorActive" class="pickable" rel="borderColorActive" value="447314" style="background: #447314;" />
+                </div>
+            
+                <div>
+                    <label for="backgroundTopActive">Top Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="backgroundTopActive" class="pickable" rel="backgroundTopActive" value="6aa436" style="background: #6aa436;" />
+                </div>
+                
+                <div>
+                    <label for="backgroundBottomActive">Bottom Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="backgroundBottomActive" class="pickable" rel="backgroundBottomActive" value="8dc059" style="background: #8dc059;" />
+                </div>
+
+            </div>
+            
+            
+        </div>
+        
+        <div class="footer-container">
+        
+        	<div class="footer-text">
+        	Jika Selesai? Klik Tombol untuk mendapatkan kode.
+       		</div>
+        
+        	<div class="get-code-button-container">
+        
+        		<div class="get-css-button">
+                
+        		<a href="#" class="get-css-button">Lihat CSS</a>
+                
+        		</div>
+                
+                <div class="get-html-button">
+                
+        		<a href="#" class="get-html-button">Lihat HTML</a>
+                
+        		</div>
+            
+        	</div>
+
+        </div>
+
+        <div class="clear"></div>
+		<div id="the-html"></div>
+        
+        <div id="the-css"></div>
+		<p>Suported by : <a href="http://css-tricks.com/" rel="nofollow" target="_blank">CSS-Tricks</a> | Update : <a href="http://under-88.blogspot.com/">Under-88</a> | original : <a href="http://uiparade.com" rel="nofollow" target="_blank">UI-Parade</a></p>
+	</div>
+</body>
+</html>
