@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	<title>Button Generator | Tuts+</title>
+	<link rel="shortcut icon" href="http://under-88.blogspot.com/favicon.ico">
+	<link rel='stylesheet' type='text/css' href='css/button-app-style.css' />
+	<link rel='stylesheet' type='text/css' href='css/colorpicker.css' />
+	<!--[if lte IE 7]>
+        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+    <![endif]-->
+	<link rel='stylesheet' type='text/css' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>    
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js'></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.dropdownPlain.js"></script>
+    <script type='text/javascript' src='js/colorpicker.js'></script>
+    <script type='text/javascript' src='js/buttonmaker.js'></script>
+	<script type='text/javascript' src='js/extra.js'></script>
+</head>
+
+<body>
+    <div id="main-container">
+    
+<div class="header-container">
+        <div class="header-text">
+        	<div id="logo"><a href="#" class="logo"><span class="displace">Live Tools</span></a></div>    
+       	</div>
+        	
+            <div class="tool-title" id=""><h1>Button Generator</h1></div> 
+            
+            <div class="menu-container">
+            	<ul class="dropdown">
+        			<li><a href="#">Pilih Alat</a>
+        				<ul class="sub_menu">
+        			 		<li><a href="index-button.html">Button Generator</a></li>
+        			 		<li><a href="index-form.html">Form Generator</a></li>
+                            <li><a href="index-ribbon.html">Ribbon Generator</a></li>
+        				</ul>
+        			</li>
+        	
+        		</ul>
+			</div>
+            <div class="clear"></div>
+ 
+        </div>
+  
+    	<div id="button-box">
+    		<a class="button" href="#" style="top: 255px; left: 207px;">Button</a>
+    	</div>
+
+    	<div id="global-controls"><h2>Global Settings</h2>
+            <div class="spacer"></div>
+                <div class="control-title">Button Label</div>
+                <input type="text" class="label-field" id="button-title" name="button-title" value="Button" maxlength="30"/>
+                <div class="spacer"></div>
+                <div class="control-title">Padding</div>
+            	<div class="sliderBar" id="sizer"></div>
+                <div class="slider-markers"></div>
+            	<div class="spacer"></div>
+            	<div class="control-title">Font Size</div>
+            	<div class="sliderBar" id="font-sizer"></div>
+                <div class="slider-markers"></div>
+            	<div class="spacer"></div>
+            	<div class="control-title">Corner Roundness</div>
+            	<div class="sliderBar" id="border-rounder"></div>
+                <div class="slider-markers"></div>
+            	<div class="spacer"></div>
+            	<div class="control-title">Border Thickness</div>
+            	<div class="sliderBar" id="border-thickness"></div>
+                <div class="slider-markers-b"></div>
+            	<div class="spacer"></div>
+            	<div class="control-title" id="">Highlights</div>
+       		<div class="switch-container">
+            	<div class="control-title" id="">Inner</div>
+            	<div class="switches sliderBar" id="inner-highlight"></div>
+            </div>
+            	<div class="switch-container-last">
+            	<div class="control-title" id="">Outer</div>
+            	<div class="switches sliderBar" id="outer-highlight"></div>    
+            </div>
+                
+        </div><div class="clear"></div>
+        
+        
+        <div class="controls-container">
+        <div id="controls"><h2>Normal State</h2>
+        <div class="spacer"></div>
+    	
+            <div id="colors">
+            
+            	<div>
+                    <label for="textColor">Text Color</label>
+                    <input type="text" maxlength="6" size="6" id="textColor" class="pickable" rel="textColor" value="06426c" style="background: #06426c;" />
+                </div>
+                
+                <div>
+                    <label for="textShadow">Text Shadow Color</label>
+                    <input type="text" maxlength="6" size="6" id="textShadow" class="pickable" rel="textShadow" value="7ea4bd" style="background: #7ea4bd;" />
+                </div>
+            
+            	<div>
+                    <label for="borderColorValue">Border Color</label>
+                    <input type="text" maxlength="6" size="6" id="borderColorValue" class="pickable" rel="borderColor" value="183140" style="background: #183140;" />
+                </div>
+            
+                <div>
+                    <label for="topGradientValue">Top Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="topGradientValue" class="pickable" rel="backgroundTop" value="65a9d7" style="background: #65a9d7;" />
+                </div>
+                
+                <div>
+                    <label for="bottomGradientValue">Bottom Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="bottomGradientValue" class="pickable" rel="backgroundBottom" value="3e779d" style="background: #3e779d;" />
+                </div>
+
+            </div>
+               
+        </div>
+        
+  
+        <div id="controls"><h2>Hover State</h2>
+        <div class="spacer"></div>
+
+
+            <div id="colors">
+            
+            	<div>
+                    <label for="hoverTextColorValue">Text Color</label>
+                    <input type="text" maxlength="6" size="6" id="hoverTextColorValue" class="pickable" rel="textColorHover" value="ffffff" style="background: #ffffff;" />
+                </div>
+                
+                <div>
+                    <label for="hovertextShadow">Text Shadow Color</label>
+                    <input type="text" maxlength="6" size="6" id="hovertextShadow" class="pickable" rel="textShadowHover" value="1e4158" style="background: #1e4158;" />
+                </div>
+            
+            	<div>
+                    <label for="hoverborderColorValue">Border Color</label>
+                    <input type="text" maxlength="6" size="6" id="hoverborderColorValue" class="pickable" rel="borderColorHover" value="183140" style="background: #183140;" />
+                </div>
+            
+                <div>
+                    <label for="hoverTopGradientValue">Top Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="hoverTopGradientValue" class="pickable" rel="backgroundTopHover" value="65a9d7" style="background: #65a9d7;" />
+                </div>
+                
+                <div>
+                    <label for="hoverbottomGradientValue">Bottom Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="hoverbottomGradientValue" class="pickable" rel="backgroundBottomHover" value="3e779d" style="background: #3e779d;" />
+                </div>
+
+            </div>
+            
+            
+        </div>
+        
+        <div id="controls"><h2>Pressed State</h2>
+        <div class="spacer"></div>
+
+
+            <div id="colors">
+            
+            	<div>
+                    <label for="activeTextColorValue">Text Color</label>
+                    <input type="text" maxlength="6" size="6" id="activeTextColorValue" class="pickable" rel="textColorActive" value="ffffff" style="background: #ffffff;" />
+                </div>
+                
+                <div>
+                    <label for="activetextShadow">Text Shadow Color</label>
+                    <input type="text" maxlength="6" size="6" id="activetextShadow" class="pickable" rel="textShadowActive" value="1e4158" style="background: #1e4158;" />
+                </div>
+            
+            	<div>
+                    <label for="activeborderColorValue">Border Color</label>
+                    <input type="text" maxlength="6" size="6" id="activeborderColorValue" class="pickable" rel="borderColorActive" value="183140" style="background: #183140;" />
+                </div>
+            
+                <div>
+                    <label for="activeTopGradientValue">Top Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="activeTopGradientValue" class="pickable" rel="backgroundTopActive" value="3e779d" style="background: #3e779d;" />
+                </div>
+                
+                <div>
+                    <label for="activebottomGradientValue">Bottom Gradient Color</label>
+                    <input type="text" maxlength="6" size="6" id="activebottomGradientValue" class="pickable" rel="backgroundBottomActive" value="65a9d7" style="background: #65a9d7;" />
+                </div>
+
+            </div>
+            
+            
+        </div></div>
+        <div class="clear"></div>
+        
+        <div class="footer-container">
+        
+        	<div class="footer-text">
+        	Jika Selesai? Klik Tombol untuk mendapatkan kode.
+       		</div>
+        
+        	<div class="get-code-button-container">
+        
+        		<div class="get-css-button">
+                
+        		<a href="#" class="get-css-button">Lihat CSS</a>
+                
+        		</div>
+                
+                <div class="get-html-button">
+                
+        		<a href="#" class="get-html-button">Lihat HTML</a>
+                
+        		</div>
+            
+        	</div>
+
+        </div>
+        
+        <div id="the-html"></div>
+        
+        <div id="the-css"></div>
+		<p>Suported by : <a href="http://css-tricks.com/" rel="nofollow" target="_blank">CSS-Tricks</a> | Update : <a href="http://under-88.blogspot.com/">Under-88</a> | original : <a href="http://uiparade.com" rel="nofollow" target="_blank">UI-Parade</a></p>
+	</div>
+
+</body>
+</html>
