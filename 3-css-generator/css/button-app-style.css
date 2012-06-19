@@ -57,12 +57,6 @@ p {
     text-align: right;
     width: 745px;
 	vertical-align:central;
-	-webkit-border-radius: 5px;
-   	-moz-border-radius: 5px;
-   	border-radius: 5px;
-	-moz-box-shadow: 0px 1px 1px #a5a4a6;
-	-webkit-box-shadow: 0px 1px 1px #a5a4a6;
-	box-shadow: 0px 1px 1px #a5a4a6, insert 0px 1px 1px #fff;
 	background: url("../images/shadow.png") no-repeat center bottom transparent;
 }
 #logo a {
