@@ -1,0 +1,82 @@
+------------- simpan css berikut di atas ]]></skin> ------------------------------------------------------------
+
+.board{background-color:black;margin:0 auto;position:relative;top:0px;overflow:hidden;border:5px solid #fff;border-radius:5px;z-index:3;width:584px;height:90px}.block-digital{float:left;position:relative;z-index:10;width:73px;height:135px}.block-padding{float:left;position:relative;z-index:10;width:10px;height:135px}.light{background:#222;position:absolute;margin:1px;border-radius:13px;width:8px;height:8px}.colon .row-2.col-2,.colon .row-2.col-3,.colon .row-3.col-2,.colon .row-3.col-3,.colon .row-5.col-2,.colon .row-5.col-3,.colon .row-6.col-2,.colon .row-6.col-3{background:#b80000}.num-0 .row-1.col-2,.num-0 .row-1.col-3,.num-0 .row-1.col-4,.num-0 .row-2.col-1,.num-0 .row-2.col-5,.num-0 .row-3.col-1,.num-0 .row-3.col-4,.num-0 .row-3.col-5,.num-0 .row-4.col-1,.num-0 .row-4.col-3,.num-0 .row-4.col-5,.num-0 .row-5.col-1,.num-0 .row-5.col-1,.num-0 .row-5.col-2,.num-0 .row-5.col-5,.num-0 .row-6.col-1,.num-0 .row-6.col-5,.num-0 .row-7.col-2,.num-0 .row-7.col-3,.num-0 .row-7.col-4{background:#b80000}.num-1 .row-1.col-3,.num-1 .row-2.col-2,.num-1 .row-2.col-3,.num-1 .row-3.col-3,.num-1 .row-4.col-3,.num-1 .row-5.col-3,.num-1 .row-6.col-3,.num-1 .row-7.col-2,.num-1 .row-7.col-3,.num-1 .row-7.col-4{background:#b80000}.num-2 .row-1.col-2,.num-2 .row-1.col-3,.num-2 .row-1.col-4,.num-2 .row-2.col-1,.num-2 .row-2.col-5,.num-2 .row-3.col-5,.num-2 .row-4.col-4,.num-2 .row-5.col-3,.num-2 .row-6.col-2,.num-2 .row-7.col-1,.num-2 .row-7.col-2,.num-2 .row-7.col-3,.num-2 .row-7.col-4,.num-2 .row-7.col-5{background:#b80000}.num-3 .row-1.col-1,.num-3 .row-1.col-2,.num-3 .row-1.col-3,.num-3 .row-1.col-4,.num-3 .row-1.col-5,.num-3 .row-2.col-4,.num-3 .row-3.col-3,.num-3 .row-4.col-4,.num-3 .row-5.col-5,.num-3 .row-6.col-1,.num-3 .row-6.col-5,.num-3 .row-7.col-4,.num-3 .row-7.col-3,.num-3 .row-7.col-2{/*background:#ffff33;*/ background:#b80000}.num-4 .row-1.col-4,.num-4 .row-2.col-3,.num-4 .row-2.col-4,.num-4 .row-3.col-2,.num-4 .row-3.col-4,.num-4 .row-4.col-1,.num-4 .row-4.col-4,.num-4 .row-5.col-1,.num-4 .row-5.col-2,.num-4 .row-5.col-3,.num-4 .row-5.col-4,.num-4 .row-5.col-5,.num-4 .row-6.col-4,.num-4 .row-7.col-4{background:#b80000}.num-5 .row-1.col-1,.num-5 .row-1.col-2,.num-5 .row-1.col-3,.num-5 .row-1.col-4,.num-5 .row-1.col-5,.num-5 .row-2.col-1,.num-5 .row-3.col-1,.num-5 .row-3.col-2,.num-5 .row-3.col-3,.num-5 .row-3.col-4,.num-5 .row-4.col-5,.num-5 .row-5.col-5,.num-5 .row-6.col-1,.num-5 .row-6.col-5,.num-5 .row-7.col-2,.num-5 .row-7.col-3,.num-5 .row-7.col-4{/*background:#ffff33;*/ background:#b80000}.num-6 .row-1.col-3,.num-6 .row-1.col-4,.num-6 .row-2.col-2,.num-6 .row-3.col-1,.num-6 .row-4.col-1,.num-6 .row-4.col-2,.num-6 .row-4.col-3,.num-6 .row-4.col-4,.num-6 .row-5.col-1,.num-6 .row-5.col-5,.num-6 .row-6.col-1,.num-6 .row-6.col-5,.num-6 .row-7.col-2,.num-6 .row-7.col-3,.num-6 .row-7.col-4{background:#b80000}.num-7 .row-1.col-1,.num-7 .row-1.col-2,.num-7 .row-1.col-3,.num-7 .row-1.col-4,.num-7 .row-1.col-5,.num-7 .row-2.col-5,.num-7 .row-3.col-4,.num-7 .row-4.col-3,.num-7 .row-5.col-2,.num-7 .row-6.col-2,.num-7 .row-7.col-2{background:#b80000}.num-8 .row-1.col-2,.num-8 .row-1.col-3,.num-8 .row-1.col-4,.num-8 .row-2.col-1,.num-8 .row-2.col-5,.num-8 .row-3.col-1,.num-8 .row-3.col-5,.num-8 .row-4.col-2,.num-8 .row-4.col-3,.num-8 .row-4.col-4,.num-8 .row-5.col-1,.num-8 .row-5.col-5,.num-8 .row-6.col-1,.num-8 .row-6.col-5,.num-8 .row-7.col-2,.num-8 .row-7.col-3,.num-8 .row-7.col-4{background:#b80000}.num-9 .row-1.col-2,.num-9 .row-1.col-3,.num-9 .row-1.col-4,.num-9 .row-2.col-1,.num-9 .row-2.col-5,.num-9 .row-3.col-1,.num-9 .row-3.col-5,.num-9 .row-4.col-2,.num-9 .row-4.col-3,.num-9 .row-4.col-4,.num-9 .row-4.col-5,.num-9 .row-5.col-5,.num-9 .row-6.col-4,.num-9 .row-7.col-2,.num-9 .row-7.col-3{background:#b80000}
+
+
+---------------simpan HTML berikut di atas id="main-wrapper" atau id="content-wrapper" atau di bawah id="header-wrapper" ------------
+
+<div class="led">
+	<div class="board">
+    <div id="led">
+      <div id="time-hh" class="block-digital num-0">
+      </div>
+      <div id="time-h"  class="block-digital num-0">
+      </div>
+			<div id="time-h-colon" class="block-digital colon">
+      </div>
+			<div id="time-mm" class="block-digital num-0">
+      </div>
+			<div id="time-m" class="block-digital num-0">
+      </div>
+			<div id="time-m-colon" class="block-digital colon">
+      </div>
+			<div id="time-ss" class="block-digital num-0">
+      </div>
+			<div id="time-s" class="block-digital num-0">
+      </div>
+			<div id="time-padding" class="block-padding">
+      </div>
+    </div>
+  </div>
+</div>
+
+---------------------------------------- Simpan code di bawah ini di atas code </head> -------------------------
+<script type="text/javascript">
+// jam digital
+var led = document.getElementById('led'),
+	  els = led.childNodes,
+    uid=0, size=10, w=0, h=0, row=0, col=0,
+    arr_lights=[];
+
+var hh = document.getElementById('time-hh'),
+	  hx = document.getElementById('time-h'),
+	  mm = document.getElementById('time-mm'),
+	  mx = document.getElementById('time-m'),
+	  ss = document.getElementById('time-ss'),
+	  sx = document.getElementById('time-s');
+
+for(var k=0, len=els.length; k<len; k++){
+  if(els[k].nodeType!=1)
+    continue;
+	w = parseInt(els[k].clientWidth);
+  h	= parseInt(els[k].clientHeight);
+  row	= parseInt(h/size);
+	col	= parseInt(w/size);
+  
+  var t, l, sum=0;
+  for(var i=0; i<row; i++){
+   	for(var j=0; j<col; j++){
+      uid++;
+      t = size*i;
+      l = size*j;
+      arr_lights.push( '<div uid="'+uid+'" id="l-'+uid+'" class="light row-'+i+' col-'+j+'" style="top:'+t+'px;left:'+l+'px"></div>');
+    }
+  }
+  els[k].innerHTML = arr_lights.join("");
+  arr_lights=[];
+}
+
+setInterval(function(){
+	var now = new Date(),
+	    time_hh = parseInt(now.getHours()),
+	 	  time_mm = parseInt(now.getMinutes()),
+			time_ss = parseInt(now.getSeconds());
+	hh.className = "block-digital num-"+parseInt(time_hh/10);
+	hx.className = "block-digital num-"+parseInt(time_hh%10);
+	mm.className = "block-digital num-"+parseInt(time_mm/10);
+	mx.className = "block-digital num-"+parseInt(time_mm%10);
+	ss.className = "block-digital num-"+parseInt(time_ss/10);
+	sx.className = "block-digital num-"+parseInt(time_ss%10);
+  
+}, 1000);
+</script>
