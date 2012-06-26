@@ -1,5 +1,5 @@
 $(function() {
-	$(putEmoAbove).before('<div class="emoWrap"> :) ;) :( =( @@, :D :&#39;( T_T :Q :p :Ozz 7:O &#92;o/ &#92;m/ &amp;amp;lt; 0:) ^o^ *fck* x@ :-d :-bd ~x( :cendol: *bang* &#39;&#39;J</div>');
+	$(putEmoAbove).before('<div class="emoWrap"> :) ;) :( =( @@, :D :&#39;( T_T :Q :p :Ozz 7:O &#92;o/ &#92;m/ &amp;amp;lt;3 0:) ^o^ *fck* x@ :-d :-bd ~x( :cendol: *bang*</div>');
 	var emo = function(emo, imgRep, emoKey) {
 		$(emoRange).each(function() {
 			$(this).html($(this).html()
@@ -35,7 +35,6 @@ $(function() {
 	emo(/\s\~x\(+/ig, "https://css3-tutsplus.googlecode.com/svn/trunk/personal/emoticon/emo/ugh.gif", "~x(");
 	emo(/\s:cendol:/ig, "https://css3-tutsplus.googlecode.com/svn/trunk/personal/emoticon/emo/cendol.gif", ":cendol:");
 	emo(/\s\*bang\*/ig, "https://css3-tutsplus.googlecode.com/svn/trunk/personal/emoticon/emo/bang.gif", "*bang*");
-	emo(/\s\'\'J/ig, "https://css3-tutsplus.googlecode.com/svn/trunk/personal/emoticon/emo/call.gif", "&#39;&#39;J");
 	// Show alert one times!
 	$('div.emoWrap').one("click", function() {
 		alert(emoMessage);
