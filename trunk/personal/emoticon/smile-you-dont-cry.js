@@ -7,7 +7,7 @@ $(function() {
 			.replace(/<br>;/g, "<br> ;")
 			.replace(/<br>=/g, "<br> =")
 			.replace(/<br>\^/g, "<br> ^")
-			.replace(emo, " <img src='https://css3-tutsplus.googlecode.com/svn/trunk/personal/emoticon/emo/" + imgRep + "' class='emo delayLoad' alt='" + emoKey + "' />")
+			.replace(emo, " <img src='https://css3-tutsplus.googlecode.com/svn/trunk/personal/emoticon/emo/" + imgRep + "' class='emo delayLoad' alt='" + emoKey + "' />"));
 		});
 	}
 	emo(/\s:\)+/g, "smile.gif", ":)");
@@ -49,7 +49,6 @@ $(function() {
 	});
 
 });
-// syntax
 $(window).load(function() {
     $('i').each(function() {
         var list = "(true|false|null|main|in|endif|if|endfor|for|while|finally|var|new|function|do|return|void|else|break|catch|instanceof|with|throw|case|default|try|this|switch|continue|typeof|delete)",
