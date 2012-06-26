@@ -1,5 +1,5 @@
 $(function() {
-	$(putEmoAbove).before('<div class="emoWrap"> :) ;) :( =( @@, :D :&#39;( T_T :Q :p :Ozz 7:O &#92;o/ &#92;m/ &amp;amp;lt;3 0:) ^o^ *fck* x@ :-d :-bd ~x( :cendol: *bang*</div>');
+	$(putEmoAbove).before('<div class="emoWrap"> :) ;) :( =( @@, :D :&#39;( T_T :Q :p :Ozz 7:O &#92;o/ &#92;m/  &lt;3 0:) ^o^ *fck* x@ :-d :-bd ~x( :cendol: *bang*</div>');
 	var emo = function(emo, imgRep, emoKey) {
 		$(emoRange).each(function() {
 			$(this).html($(this).html()
@@ -24,7 +24,7 @@ $(function() {
 	emo(/\s7:O/ig, "angry.gif", "7:O");
 	emo(/\s\\o\//ig, "applause.gif", "&#92;o/");
 	emo(/\s\\m\//ig, "metal.gif", "&#92;m/");
-	emo(/\s&lt;3/ig, "love.gif", "&amp;amp;lt;3");
+	emo(/\s&lt;3/ig, "love.gif", " &lt;3");
 	emo(/\s0:\)+/ig, "angelgreen.gif", "0:)");
 	emo(/\s\^o\^/ig, "angelwhite.gif", "^o^");
 	emo(/\s\*fck\*/ig, "fuck.gif", "*fck*");
