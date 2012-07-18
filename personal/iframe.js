@@ -16,6 +16,15 @@ function getIframeUrl()
 		iframe_url = url.substr(param_start+7,url.length-param_start-7);
 	if( iframe_url.indexOf("http://") == -1) 
 		iframe_url = "http://" + iframe_url;
+	return iframe_url;
+}
+function getIframeUrl()
+{
+	var url = window.location.href;
+	var iframe_url = 'http://google.co.id/';
+	var param_start = url.indexOf("iframe=");
+	if( param_start != -1 ) 
+		iframe_url = url.substr(param_start+7,url.length-param_start-7);
 	if( iframe_url.indexOf("https://") == -1) 
 		iframe_url = "https://" + iframe_url;
 	return iframe_url;
