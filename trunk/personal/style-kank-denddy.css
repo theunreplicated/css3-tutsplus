@@ -754,7 +754,7 @@ pre .inlist {
     color: #c63;
 }
 
-#HTML3 h2 {display:none;}
+#HTML2 h2 {display:none;}
 
 
 /*	--------------------------
@@ -1393,7 +1393,7 @@ iframe#comment-editor {
 
 #fixed-bar a.first {
     float: left;
-    margin-top: -1px;
+    margin-top: 10px;
 }
 
 .bottom-wrapper {
@@ -1495,7 +1495,7 @@ only screen and (min-device-width : 686px) and (max-device-width : 767px) {
         display: inline-block;
     }
 
-    #HTML3 h2, #HTML5 h2 {
+    #HTML2 h2, #HTML1 h2 {
         display: block;
     }
 
@@ -1613,7 +1613,7 @@ only screen and (min-device-width : 320px) and (max-device-width : 685px) {
         display: inline-block;
     }
 
-    #HTML3 h2, #HTML5 h2 {
+    #HTML2 h2, #HTML1 h2 {
         display: block;
     }
 
