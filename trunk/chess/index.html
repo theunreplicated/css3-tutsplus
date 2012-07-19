@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Maen Catur Sabari Ngudud</title>
+<link href='https://plus.google.com/117690544352523175338' rel='author'/>
+<link href='https://plus.google.com/117690544352523175338' rel='publisher'/>
+<link href='http://under-88.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<meta content="Blogger Tutorial Plus Free Blogger Templates,blogger tutorial, Blogger template, tips dan trik blog,SEO Blogger,javascript, css" name='keywords'/>
+<meta content='demo tutorial blogger css jquery moderration plugin blog' name='description'/>
+<script src="chess.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis|Niconne' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="chess.css">
+<body onload="prepare()">
+<h1>Maen Catur Sabari Ngudud</h1>
+<h2>Semua akan terasa mudah jika mau belajar</h2>
+<div id="container">
+	<div class="board" id="boardBG">
+		<div class="row"><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div></div>
+		<div class="row"><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div></div>
+		<div class="row"><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div></div>
+		<div class="row"><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div></div>
+		<div class="row"><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div></div>
+		<div class="row"><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div></div>
+		<div class="row"><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div></div>
+		<div class="row"><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div><div class="sq"></div></div>
+	</div>
+	<div class="board" id="board" onclick="boardClicked(event)">
+		
+		<div class="piece top_20 left_1" id="i21">♖</div>
+		<div class="piece top_20 left_2" id="i22">♘</div>
+		<div class="piece top_20 left_3" id="i23">♗</div>
+		<div class="piece top_20 left_4" id="i24">♕</div>
+		<div class="piece top_20 left_5" id="i25">♔</div>
+		<div class="piece top_20 left_6" id="i26">♗</div>
+		<div class="piece top_20 left_7" id="i27">♘</div>
+		<div class="piece top_20 left_8" id="i28">♖</div>
+		<div class="piece top_30 left_1" id="i31">♙</div>
+		<div class="piece top_30 left_2" id="i32">♙</div>
+		<div class="piece top_30 left_3" id="i33">♙</div>
+		<div class="piece top_30 left_4" id="i34">♙</div>
+		<div class="piece top_30 left_5" id="i35">♙</div>
+		<div class="piece top_30 left_6" id="i36">♙</div>
+		<div class="piece top_30 left_7" id="i37">♙</div>
+		<div class="piece top_30 left_8" id="i38">♙</div>
+		<div class="piece top_80 left_1 blackPiece" id="i81">♟</div>
+		<div class="piece top_80 left_2 blackPiece" id="i82">♟</div>
+		<div class="piece top_80 left_3 blackPiece" id="i83">♟</div>
+		<div class="piece top_80 left_4 blackPiece" id="i84">♟</div>
+		<div class="piece top_80 left_5 blackPiece" id="i85">♟</div>
+		<div class="piece top_80 left_6 blackPiece" id="i86">♟</div>
+		<div class="piece top_80 left_7 blackPiece" id="i87">♟</div>
+		<div class="piece top_80 left_8 blackPiece" id="i88">♟</div>
+		<div class="piece top_90 left_1 blackPiece" id="i91">♜</div>
+		<div class="piece top_90 left_2 blackPiece" id="i92">♞</div>
+		<div class="piece top_90 left_3 blackPiece" id="i93">♝</div>
+		<div class="piece top_90 left_4 blackPiece" id="i94">♛</div>
+		<div class="piece top_90 left_5 blackPiece" id="i95">♚</div>
+		<div class="piece top_90 left_6 blackPiece" id="i96">♝</div>
+		<div class="piece top_90 left_7 blackPiece" id="i97">♞</div>
+		<div class="piece top_90 left_8 blackPiece" id="i98">♜</div>
+		
+	</div>
+	<pre id="bib">
+	</pre>
+	<div id="capturedw" class="captured"></div>
+	<div id="capturedb" class="captured"></div>
+</div>
+<form name="fred" id="fred">
+next pawn becomes:
+<select name=hob><option selected>queen<option>bishop<option>knight<option>rook</select>
+computer level:
+<select name=hep><option>1. stupid<option selected>2. medium<option>3. smart</select>
+<div id="actions">
+<input type=button value=start name=show title=show onclick='going=!going;this.value=going?"stop":"start";if(going)B1(0)'>
+<input type=button value=once name=show title=show onclick='B1(0)'>
+</div>
+</form>
+<div id='pih' class='piece'></div>
+<script type='text/javascript'>
+//<![CDATA[
+//analystic
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29928702-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+//]]>
+</script>
+</body>
