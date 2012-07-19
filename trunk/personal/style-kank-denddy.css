@@ -1517,7 +1517,7 @@ only screen and (min-device-width : 686px) and (max-device-width : 767px) {
         padding: 0 10%;
     }
 
-    .adlink, HTML1, #HTML2, #HTML4, #HTML6, #HTML7 {
+    .adlink{
         display: none;
     }
 }
