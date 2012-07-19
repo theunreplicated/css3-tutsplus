@@ -85,7 +85,7 @@ url(http://themes.googleusercontent.com/static/fonts/arimo/v3/wZLYhRRxZWGToTRP78
 body {
     color: #424234;
     font: normal normal 15px/1.7 'Droid Serif', Enriqueta, Georgia, Serif;
-    background: url(http://4.bp.blogspot.com/-a98i_kGDtE8/TxqnWnONtEI/AAAAAAAACQc/zxkLVcZS0io/s1600/graph-pattern.png) repeat left top;
+    background: url(https://css3-tutsplus.googlecode.com/svn/trunk/tooltipscss3/images/bg.gif) repeat left top;
     background-color: #444;
     position: relative;
 }
