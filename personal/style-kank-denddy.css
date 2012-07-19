@@ -623,7 +623,7 @@ pre .inlist {
 .pagenavi a:hover {
     text-decoration: none;
     background-color: CACABA;
-    color: #777;
+    color: #DEDEDE;
 }
 
 #blog-pager-older-link,
