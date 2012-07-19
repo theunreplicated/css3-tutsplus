@@ -1326,21 +1326,21 @@ iframe#comment-editor {
        THEME
        ------    */
 
-.pale1 { background-color:#ABC77F; }
-.pale2 { background-color: #D9D977; }
-.pale3 { background-color: #48CF89; }
-.pale4 { background-color: #FAB36B; }
-.pale5 { background-color: #48CFB6; }
-.pale6 { background-color: #F47B55; }
-.pale7 { background-color: #C4DF9B; }
-.pale8 { background-color: #F0B778; }
+.pale1{background-color:yellowgreen}
+.pale2{background-color:violet}
+.pale3{background-color:turquoise}
+.pale4{background-color:tomato}
+.pale5{background-color:GrayText}
+.pale6{background-color:Highlight}
+.pale7{background-color:#7D7D7D}
+.pale8{background-color:#AC7334}
 
-.button.pale1 { background-color: #ABC77F; }
-.button.pale2 { background-color: #D9D977; }
-.button.pale3 { background-color: #48CF89; }
-.button.pale4 { background-color: #FAB36B; }
-.button.pale5 { background-color: #48CFB6; }
-.button.pale6 { background-color: #F47B55; }
+.button.pale1{background-color:#ABC77F}
+.button.pale2{background-color:#D9D977}
+.button.pale3{background-color:#48CF89}
+.button.pale4{background-color:#FAB36B}
+.button.pale5{background-color:#48CFB6}
+.button.pale6{background-color:#F47B55;}
 
 
 /*	--------------
