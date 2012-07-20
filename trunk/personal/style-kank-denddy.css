@@ -546,9 +546,9 @@ pre .inlist {
     right: 0;
     width: 0;
     height: 0;
-    border-color: transparent #f7f7ee transparent transparent;
+    border-color: transparent #F7F7EE transparent transparent;
     border-style: solid;
-    border-width: 26px 32px 0 0;
+    border-width: 30px 32px 0 0;
 }
 
 .post-share {
