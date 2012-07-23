@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<title>Denzdii CSS3tutsplus</title>
+<link href='http://under-88.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='https://plus.google.com/117690544352523175338' rel='author'/>
+<link href='https://plus.google.com/117690544352523175338' rel='publisher'/>
+<meta content='Blogger Tutorial Plus Free Blogger Templates,blogger tutorial, Blogger template, tips dan trik blog,SEO Blogger,javascript, css' name='keywords'/>
+<meta content='demo tutorial blogger css jquery moderration plugin blog' name='description'/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<!-- Lets make a simple stopwatch using CSS3 -->
+	<!-- Time for the markup -->
+	<!-- The core logic is a simple div containing numbers being moved
+	using keyframe animations. The numbers have space between them so that they
+	can be aligned vertically easily by reducing the container width. Lets
+	wrap up the 'numbers' in a cell to display only 1 digit-->
+
+	<!-- We will replicate the digits now -->
+	<div class="container">
+			<header>
+				<h1>CSS <span>Stopwatch</span></h1>
+				<h2>A simple CSS-only Stopwatch experiment</h2>
+			</header>
+		<!-- time to add the controls -->
+		<input id="start" name="controls" type="radio" />
+		<input id="stop" name="controls" type="radio" />
+		<input id="reset" name="controls" type="radio" />
+		<div class="timer">
+			<div class="cell">
+				<div class="numbers tenhour moveten">0 1 2 3 4 5 6 7 8 9</div>
+			</div>
+			<div class="cell">
+				<div class="numbers hour moveten">0 1 2 3 4 5 6 7 8 9</div>
+			</div>
+			<div class="cell divider"><div class="numbers">:</div></div>
+			<div class="cell">
+				<div class="numbers tenminute movesix">0 1 2 3 4 5 6</div>
+			</div>
+			<div class="cell">
+				<div class="numbers minute moveten">0 1 2 3 4 5 6 7 8 9</div>
+			</div>
+			<div class="cell divider"><div class="numbers">:</div></div>
+			<div class="cell">
+				<div class="numbers tensecond movesix">0 1 2 3 4 5 6</div>
+			</div>
+			<div class="cell">
+				<div class="numbers second moveten">0 1 2 3 4 5 6 7 8 9</div>
+			</div>
+			<div class="cell divider"><div class="numbers">:</div></div>
+			<div class="cell">
+				<div class="numbers milisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
+			</div>
+			<div class="cell">
+				<div class="numbers tenmilisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
+			</div>
+			<div class="cell">
+				<div class="numbers hundredmilisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
+			</div>
+		</div>
+		<!-- Lables for the controls -->
+		<div id="timer_controls">
+			<label for="start">Start</label>
+			<label for="stop">Stop</label>
+			<label for="reset">Reset</label>
+		</div>
+	</div>
+	<script type='text/javascript'>
+//<![CDATA[
+	//analystic
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29928702-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  //]]>
+</script>
+</body>
+</html>
