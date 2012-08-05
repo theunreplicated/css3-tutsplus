@@ -1,0 +1,23 @@
+*{margin:0 0;padding:0 0}
+*:focus{outline:none}
+@media screen and (max-width:700px){.col.left,.col.right{float:none;display:block;width:95%;margin:0 auto 20px;}}
+body{text-align:center;background-color:#333;font:normal 12px Arial,Verdana,Sans-Serif;text-shadow:0 0 1px rgba(0,0,0,0.2);color:white;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAFhUlEQVRo3t2a60qsORBF82j9/q8hIiIiIiIi4rCF1Sw3lW7PjHJ0fnz0d0kqVbvuSa/r6+vDw8PD4e3t7fjLdX9/f3h6enq/v729Pb6/uro6PD4+Hsff3d0dXl9fDy8vL+/3phH6GR9a+Z57vmUOv6xzc3PzYa0855fvnh96oZv7lYUvLy/fHy4uLj4wkYF+3l0hBg2eYSY0IvRuLmA8Pz8fQbFQ0IM3A8i3d0GaoBmCMATyDRStHb4H/Vz+nvFemO+hGyFh9k8vQEbLiwckRsIslHszHoYQtFFmfjRhdPMM87xvIHKFNmNhEiENrk3XIKxT6oqKM7hR5mIBvkcYzKL9CrqMhVm0GB7CJMLCQ94DWnixz5jnhUmADItnYLTRyIcQAuTXCLVZGkUEyJgI7EDCvDAWQUwTE8RMbT3QOmoE6VG1UW1z6MjmdwEBWhHYZrkTMnNZr0GzVqbAE95yZd1lM4Bgh9AQdNjzZfNhMaNoUCZG+J77aQ3eZR1H1QZ0MRDkyQXNQFCxc2VeEDfxzO0F/Jw18gxQoWd/7IjotTI3YzvKfYhaIQBBmxLmgG1CFOZPod2mZqEyj0Bi5p2cO4TbMlpzAeZoWiHsCOEIgh1OTuxFWoMsiB8EmNCZEuQu+fJ+mmO/W+cGO+FhDhkPepM5ZAGiVOZjSg7jhNsdjY5SmNSOx8XCDMj9lLiM/rnSJQyHDojZrnNPyDfq0ZijVAsEGA48GYd5L9vgZ2orShUzuCszdom0g4DzwhT2HUV30W39m0ldIrT/5Bm/aN+BnhPbzrnzva0jtDOXCAify0hPiSuD2oewa8pzlx8sPOUXaANQfjFlaFNlNC9974Izz8sRikiTQTi0q99JGzsttSZB2bVUhA0T0ZwFJ1GCuoXNe4pM01pThdnXZALkAgTsnBK61FRhshsmAGpTnnxp8rUOUEdnZ9EmbhvHFFyJYqcgTvk/lTEWlsSWsQhgk4pFOCzDNJ1mC73aH9AQKGRiiOwSYpvN1BHy/J0VxOpS2463C6lZAE1QDfztVmBhh6h1ske0ZBRhbic0ewFsVJyrnCOwGzUyv9ftCsB5b9msLISjlc3F9j85uhGGMeorV7uu6aaka+GnMV43v2tXhE0EvG2zQ3lXYHY4du1GSN3VWqEXXmj6mq/36te7EV4EhrtsCVFU/JN6mbVrZMwgqLVWaHRikrk3UjZHaxrmDdBX1Hrrt9ZWXQqtdtTuP05d3d3t+mnMrYX8zNVmauAN6PpJOyHTnKn13Uat31iSdO223JpOoROTMVOt7s5Bk+mR8JyNTzVhtMGTdgEBDWfc2jn0tOPuQOAd94lxL9xHEpPmpi3bU5WAQ/EHjUCo8wqDwwCoTYHAEQVmzaCZ8FZnA5H3uzDsuq3HrFNamLq9Xd+w61tO0Z1CNZ3nVAEYwN4VXX/jdMlbRY6QVAZdwBIobDkceZAgjx1i2zeFG734ZP8Oz+5fTiXT7/K99ds24nY7kYuwe648aZR8ENqJ8txxWsZT9E0asB913trtjK7vOAYzAwanG7MWgLV2wYR6i7nxRbaFVjPnA02EsVOeq8HYymnt7vruTnpugz3P2z8WlnXW/+Fo+kM/MnVdPi3iPKMjG07sHcdzJc4usrk3nxq4U1X48i77ThCjuos8pyJMO+p0LrnT3K767eZv/aQtnf9yuru+6jDyb/9zYn22A+MwcjJFbJ78AIPkil58yhP0Ot7Rhxf+iMD7DlDvZbx33EluLtAcipmETU8hFUfFJPlLR1et1i6MuTqg1utcY3PGpENrfUUJDXEfj02Z/jvrucUG2HRWuCvu/N8TC7PLyN6Y7vNxwAkt+CAR/8n/yNbkHyECirvwd+p88NTV9BwcMNsOGO7fvY+Aeef9PxP44jFlv0aHAAAAAElFTkSuQmCC);
+}
+#page-wrap{width:98%;margin:30px auto 30px;text-align:left;overflow:hidden;clear:both}
+h2{font-size:22px}
+textarea{display:block;text-shadow:none;width:99% !important;height:300px;margin:10px auto 10px;padding:1px;background:white;box-shadow:0 1px 5px #333 inset;color:black;text-align:left;border:1px solid #bbb;font:normal 12px/15px "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace}
+.button-group{text-align:center}
+.button-group div{text-align:left;margin:10px auto 10px}
+button{padding:7px 18px;font:bold 12px Arial,Sans-Serif;cursor:pointer}
+button,button[disabled]:active{background-color:#3c3c3c;font:bold 11px Tahoma,Verdana,Arial,Sans-Serif;color:#999;padding:5px 10px;border:none;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;cursor:pointer}
+button:active{background-color:white;color:black}
+button[disabled],button[disabled]:active{opacity:0.4;cursor:default}
+.col{width:48%}
+.left{float:left;margin-left:1%}
+.footer{display:block;margin:10px auto 10px;width:98%;text-align:right}
+.right{float:right;margin-right:1%}
+#config .outer{border:1px solid #bbb !important}
+#config select{background-color:white !important;color:black !important}
+a{color:#ccc;text-decoration:none;}
+a:hover{color:#fff;text-decoration:underline;}

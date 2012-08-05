@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+	<link href='http://under-88.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+	<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+	<meta name="description" content="Compress CSS code to reduce file size and make your sites load faster for free." />
+	<meta name="keywords" content="style sheets,style,cascading style sheets,css,css compress,css compressor,compress css,css code,optimize css,css compression" />
+	<meta content='Denddy Gustiana Nugraha' name='author'/>
+	<title>CSS Compressor and Beauty - Online code compressor for Cascading Style Sheets</title>
+</head>
+<body><div id="page-wrap"><!-- AddThis Button BEGIN --><div class="addthis_toolbox addthis_default_style "><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a><a class="addthis_button_tweet"></a><a class="addthis_button_pinterest_pinit"></a><a class="addthis_counter addthis_pill_style"></a></div><script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fb2765e0d5f5954"></script><!-- AddThis Button END --><div style="clear:both;"></div><div class="col left"><h2>Compress CSS</h2><textarea spellcheck="false" id="compress" placeholder="Compress CSS here..."></textarea><div class="button-group"><button onclick="compressCSS('compress');">Compress CSS</button> <button onclick="clearField('compress');">Reset</button><div><p><input type="checkbox" id="stripAllComment" /> <label for="stripAllComment">Strip all comments</label></p><p><input type="checkbox" id="superCompact" /> <label for="superCompact">Super Compact</label></p></div></div></div><div class="col right"><h2>Uncompress CSS</h2><textarea spellcheck="false" id="beautify" placeholder="Uncompress CSS here..."></textarea><div class="button-group"><button onclick="beautifyCSS('beautify');">Uncompress CSS</button> <button onclick="clearField('beautify');">Reset</button><div><p><input type="checkbox" onchange="beautifyCSS('beautify');" id="tab" /> <label for="tab">Replace double space with single tab character</label></p><p><input type="checkbox" onchange="beautifyCSS('beautify');" id="breakSelector" checked="true" /> <label for="breakSelector">Break multiple selector (e.g: <code>html,body,table {}</code>)</label></p></div></div></div></div><div class="footer"><a href="http://under-88.blogspot.com/">Blog</a> | About Me <a href="https://plus.google.com/109783772548428705949/post">Denddy Gustiana Nugraha</a></div>
+<script type="text/javascript" src="js/javava.js"></script>
+<script type='text/javascript'>
+//<![CDATA[
+var mode = window.location.search.split("&mode=")[1],
+	css = document.createElement('link');
+	css.href  = "css/style.css";
+	css.rel   = "stylesheet";
+	css.type  = "text/css";
+	css.media = "screen";
+	if(window.location.search) {
+		css.href = "css/" + mode + ".css";
+	}
+	document.getElementsByTagName('head')[0].appendChild(css);
+	// analystic
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33880190-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+//]]>
+</script></body></html>
