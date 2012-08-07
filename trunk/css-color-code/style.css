@@ -1,0 +1,42 @@
+.denzdii {background:#ccc;border:solid 1px #000;width:392px;font-size:11px;font-family:Times New Roman;color:#000000}
+.denzdii .ClearFloat{clear:both;}
+.denzdii .BackLink{margin:3px;padding-left:10px;background:#999;height:25px;line-height:25px;font-weight:700;display:block!important;}
+.denzdii .BackLink a,.TrixCCG .BackLink a:visited{color:#000;text-decoration:none;}
+.denzdii .BackLink a:Hover{color:#000;text-decoration:underline;}
+.denzdii .DialogControls{float:right}
+.denzdii .DialogControls .Close{cursor:pointer;display:none;width:14px;height:14px;background:url('../images/cross.png');margin:5px;}
+.denzdii .DialogControls .CloseHover{background-position:14px 0px}
+.denzdii .ColPnlInner{margin:5px;}
+.denzdii .ColGradBorder{border:solid 1px #000;width:360px;height:100px;float:left;margin-right:5px;}
+.denzdii .ColorGrad{width:360px;height:100px;background:url(../images/color-gradient.jpg) 50% 50% no-repeat;}
+.denzdii .ColSelCircle{width:9px;height:9px;position:relative;top:-4px;left:-4px;background:url(../images/circle.png) 50% 50% no-repeat;cursor:move; z-index:1000000;}
+.denzdii .GreyGradBorder{width:7px;height:100px;border:solid 1px #000;float:left;}
+.denzdii .GreyGrad{width:7px;height:100px;background:url(../images/grey-gradient.png) 50% 50% no-repeat;}
+.denzdii .GreySelTriangle{width:9px;height:9px;position:relative;top:50px;left:9px;background:url(../images/arrow.png) 50% 50% no-repeat;cursor:move; z-index:1000000;}
+.denzdii .SelPnl{padding-bottom:5px;}
+.denzdii .SelPnl table{height:75px;width:370px;font-weight:700;margin:0 10px;}
+.denzdii .SelPnl .tdEven{text-align:right;padding:5px 2px 5px 5px;}
+.denzdii .SelPnl .tdOdd{text-align:left;padding:5px 5px 5px 2px;}
+.denzdii .SelPnl input{width:35px;text-transform:uppercase;margin:0;padding:0;}
+.denzdii .SelPnl .Degree{vertical-align:super;font-size:8px;padding-left:3px;}
+.denzdii .SelPnl .Percent{padding-left:3px;}
+.denzdii .col{width:60px;height:60px;border:solid 1px #000;position:relative;}
+.denzdii .ColSel{height:18px;line-height:18px;position:absolute;bottom:0;display:none;width:100%;color:#000;}
+.denzdii .ColSel .ColSelImg{background:url(../images/select.png) -60px 50% no-repeat;cursor:pointer;float:left;width:50%;height:18px;}
+.denzdii .ColSel .ColAddImg{background:url(../images/select.png) -90px 50% no-repeat;cursor:pointer;float:right;width:50%;height:18px;}
+.denzdii.SelPnl .ColAddImg{width:100%;background-position:0 50%;}
+.denzdii .SelPnl .col{margin-left:7px;}
+.denzdii input.hex{width:60px;}
+.denzdii .MatColsPnl .col{height:40px;}
+.denzdii .MatColsPnl{width:392px;height:160px;position:relative;color:#000;left:-1px;display:none;overflow:hidden;border-top:solid 1px #000;margin:0 auto;}
+.denzdii .MatColsMenu{float:left;width:104px;z-index:1000;}
+.denzdii .MatColsMenu .SliderMenu{cursor:pointer;height:24px;line-height:24px;position:relative;z-index:0;top:-1px;width:auto;padding:0 5px;}
+.denzdii .MatColsMenu .SelectedMenu{z-index:10000;background:#ddd;left:1px;border-bottom:solid 1px #000;border-top:solid 1px #000;}
+.denzdii .MatColsWrap{z-index:9999;float:right;width:287px;height:160px;overflow:hidden;position:relative;border-left:solid 1px #000;background:#ddd;margin:0 auto;}
+.denzdii .MatColsWrap .Panel{width:265px;height:140px;float:right;margin:0 auto;padding:10px;}
+.denzdii .MatColsWrap td{padding:3px 12px;}
+.denzdii .MatColsWrap .hex{text-transform:uppercase;}
+.denzdii .SelectedCol{height:20px;width:50px;border:solid 1px #000;cursor:pointer;}
+.denzdii .SelectedColActive{height:18px;width:48px;border:solid 2px #000;}
+.denzdii .SelectedCols table{margin:0;padding:0;}
+.denzdii .SelectedCols td{padding:3px 7px;}
