@@ -1,0 +1,117 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color: #333333;
+}
+
+#container {
+	margin: auto;
+	width: 490px;
+}
+#header {
+    color: #ABB881;
+    line-height: 0.5;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 490px;
+}
+#header h1 span,#header h2 span {
+    color: peru;
+}
+#header h2 {
+    font-size: 14px;
+    color: ButtonShadow;
+}
+#button {
+	height: 32px;
+	width: 184px;
+	margin: auto;
+}
+
+ul, li {
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+
+.menu_ct {
+	border:1px solid #1c1c1c;
+}
+
+.ct_menu {
+    background: url("http://1.bp.blogspot.com/-RSjqmiYfs6k/T6nyMju4vWI/AAAAAAAABAE/lWOXgG1LKs0/s1600/pattern.png")#302F2F;
+    border: 1px solid #1C1C1C;
+    display: none;
+    width: 450px;
+}
+.ct_menu h3 {
+    color: skyblue;
+    border-bottom: 1px solid #222;
+    margin: 5px 0;
+    padding: 5px 0;
+    box-shadow: 0 1px 0 #444;
+	-webkit-box-shadow: 0 1px 0 #444;
+	-moz-box-shadow: 0 1px 0 #444;
+}
+.ct_menu li {
+    display: inline;
+}
+
+.ct_menu li a {
+	color:#FFFFFF; 
+	text-decoration:none; 
+	padding: 5px 0;
+	display: inline-block;
+}
+
+.ct_menu li a:hover {
+	padding: 5px 0;
+	font-weight:bold;
+	color: #067393;
+}
+/*Mega Menu*/
+/*foot menu*/
+.foot-menu {
+	overflow: hidden;
+	position: relative;
+    background: #444;
+    padding: 10px;
+    color: #ccc;
+    font-family: arial,helvetica,sans-serif,serif;
+    border-top: 1px solid #555;
+    box-shadow: 0 -1px 0 #000,0 -1px 5px #333 inset;
+	-moz-box-shadow: 0 -1px 0 #000,0 -1px 5px #333 inset;
+	-webkit-box-shadow: 0 -1px 0 #000,0 -1px 5px #333 inset;
+}
+.foot-menu img.ct {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+.about {
+    font: bold italic 14px arial;
+}
+.foot-menu p,.about {
+    float: right;
+    width: 80%;
+}
+.ct-about {
+    float: left;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 2px #000;
+	-moz-box-shadow: 0 0 2px #000;
+	-webkit-box-shadow: 0 0 2px #000;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+/*Mega Menu*/
+ul.ct_menu li ul li {
+    width: 100%;
+    display: block;
+}
+ul.ct_menu li ul {
+    display: inline-block;
+    overflow: hidden;
+    width: 210px;
+    margin: 0 5px;
+}
