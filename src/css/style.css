@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
 @font-face {
     font-family: 'BebasRegular';
     src: url('font/BEBAS___-webfont.eot');
@@ -10,33 +9,32 @@
          url('font/BEBAS___-webfont.svg#BebasRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 html,body{
  font-family: 'BebasRegular';
 	width:100%;
 	height:100%;
 }
-
 .navigation{
 	position:fixed;
 	z-index:1;
 	top:20px;
 }
 .navigation li{
-	color:#333333;
+    background-color: mintcream;
+    border: 1px solid black;
+    color: #484848;
 	display:block;
 	padding: 0 10px;
 	line-height:30px;
 	margin-bottom:2px;
 	font-weight:bold;
 	-webkit-transition: all .2s ease-in-out;
-	border-bottom:1px solid black;
 	text-align:left;
-	width:53px;
+	width:100px;
 }
 .navigation li:hover,.active{
-	font-size:25px;
+	font-size:18px;
 	cursor:pointer;
 	width:100px!important;
 }
